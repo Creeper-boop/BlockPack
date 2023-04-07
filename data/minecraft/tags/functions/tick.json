@@ -1,0 +1,6 @@
+{
+    "values": [
+        "player:tick",
+        "editor:tick"
+    ]
+}

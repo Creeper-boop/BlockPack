@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "title": "Awaken",
+        "frame": "challenge",
+        "background": "minecraft:textures/block/exposed_copper.png",
+        "description": "temp description, this advancement is for registering new players",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "player:register"
+    }
+}
