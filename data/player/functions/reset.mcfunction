@@ -49,7 +49,7 @@ scoreboard objectives add bpg_player_level_required dummy
 scoreboard objectives add bpg_player_show_health health
 scoreboard objectives add bpg_player_show_level level
 
-scoreboard objectives setdisplay belowName bpg_player_show_health
+scoreboard objectives setdisplay below_name bpg_player_show_health
 scoreboard objectives setdisplay list bpg_player_show_level
 
 scoreboard objectives add bpg_player_crouch minecraft.custom:minecraft.sneak_time
